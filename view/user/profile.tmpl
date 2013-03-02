@@ -1,0 +1,21 @@
+<% c++ #include "../data/data.h" %>
+<% skin user %>
+<% view profile uses data::profile extends usermaster %>
+<% template header_more() %>
+	<link href="/css/profile.css" type="text/css" rel="stylesheet" />
+<% end %>
+
+<% template content_data() %>
+<div id="profile_data">
+<form method="post" id="profile_post" target="_self">
+<table border="0" cellpadding="0" cellspacing="0">
+	<% form as_table fProfile %>  
+</table>
+</form>
+
+</div>
+<% end template %>
+
+
+<% end view %>
+<% end skin %>

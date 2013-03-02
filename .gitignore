@@ -1,0 +1,15 @@
+#Backup files
+*~
+*.o
+*.kdev4
+build/
+.kdev4/
+animotion
+data.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
